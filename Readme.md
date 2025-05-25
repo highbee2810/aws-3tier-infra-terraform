@@ -8,6 +8,8 @@ This project provisions a secure 3-tier architecture on AWS:
 ## Architectural Diagram.
 
 
+![new drawio](https://github.com/user-attachments/assets/070977c3-b55d-4b5e-9ab7-4715ae1e0367)
+
 
 
 ### How to Deploy
@@ -759,6 +761,11 @@ run the command```terraform apply auto-approve```
 ![Screenshot (391)](https://github.com/user-attachments/assets/274507dc-b3da-4f9f-b9c6-c20ba7968c7a)
 
 **Run terraform destroy to terminate all the resources**
+
+```terraform destroy --auto-approve```
+
+
+
 ![Screenshot (393)](https://github.com/user-attachments/assets/c2faa97a-be8a-442c-a45c-8ad734decdaa)
 ![Screenshot (394)](https://github.com/user-attachments/assets/5734ea57-74ff-4d7d-9708-5ac3f626e2ba)
 ![Screenshot (395)](https://github.com/user-attachments/assets/3b968ef8-095a-4134-8c3c-d6f8a28361da)
