@@ -5,6 +5,10 @@ This project provisions a secure 3-tier architecture on AWS:
 - App and DB tier in private subnets
 - Remote backend with S3 & DynamoDB
 - Security enforced via SGs and NACLs
+## Architectural Diagram.
+
+
+
 
 ### How to Deploy
 ```
@@ -724,3 +728,35 @@ output "web_tier_public_ips" {
   value       = aws_instance.web_tier[*].public_ip 
 }
 ```
+## Implementation.
+run the command ```terraform init```
+
+![Screenshot (379)](https://github.com/user-attachments/assets/1931c7e6-b0ee-4e02-b45c-b479214360f5)
+
+
+run the command ```terraform plan```
+![Screenshot (380)](https://github.com/user-attachments/assets/e2512de1-c82c-4cd0-ad85-7ec452e090fb)
+![Screenshot (381)](https://github.com/user-attachments/assets/010b0bf5-c612-470f-b8f2-4decaf46f381)
+![Screenshot (382)](https://github.com/user-attachments/assets/85d06cdc-4451-4f25-bc77-30e481d33b4f)
+![Screenshot (383)](https://github.com/user-attachments/assets/4d7e232d-6856-4a31-8c1b-93054fe7d1cf)
+![Screenshot (384)](https://github.com/user-attachments/assets/4ee94376-32d6-4506-8b9e-bce45595376f)
+
+
+run the command```terraform apply auto-approve```
+
+![Screenshot (390)](https://github.com/user-attachments/assets/61759176-eecf-484a-b94f-a1d55b8509b7)
+
+
+![Screenshot (389)](https://github.com/user-attachments/assets/8effb04f-fbab-43bb-b374-9934698963bd)
+![Screenshot (384)](https://github.com/user-attachments/assets/1ef04c3c-ee90-4f76-a0ba-015a155b783c)
+![Screenshot (385)](https://github.com/user-attachments/assets/9b2a4a12-53d1-45e1-ad22-792628440317)
+![Screenshot (386)](https://github.com/user-attachments/assets/3444c2f8-4128-466d-8ee7-3aeaa1c11ba3)
+![Screenshot (387)](https://github.com/user-attachments/assets/1a85cff3-0275-4f29-94c1-e3692b2b1476)
+![Screenshot (388)](https://github.com/user-attachments/assets/41f687f9-d75d-4f07-ba9f-653e92a654a8)
+
+## check the console for the instances
+
+![Screenshot (391)](https://github.com/user-attachments/assets/274507dc-b3da-4f9f-b9c6-c20ba7968c7a)
+
+
+
