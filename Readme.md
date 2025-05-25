@@ -758,5 +758,11 @@ run the command```terraform apply auto-approve```
 
 ![Screenshot (391)](https://github.com/user-attachments/assets/274507dc-b3da-4f9f-b9c6-c20ba7968c7a)
 
+**Run terraform destroy to terminate all the resources**
+![Screenshot (393)](https://github.com/user-attachments/assets/c2faa97a-be8a-442c-a45c-8ad734decdaa)
+![Screenshot (394)](https://github.com/user-attachments/assets/5734ea57-74ff-4d7d-9708-5ac3f626e2ba)
+![Screenshot (395)](https://github.com/user-attachments/assets/3b968ef8-095a-4134-8c3c-d6f8a28361da)
+![Screenshot (396)](https://github.com/user-attachments/assets/18c4e1ee-b119-4386-a2a1-56a9400e6488)
+![Screenshot (392)](https://github.com/user-attachments/assets/41d99535-d60f-4139-ac52-3ed518738849)
 
 
