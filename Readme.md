@@ -1,8 +1,8 @@
 # Terraform Resources for 3-Tier AWS Infrastructure
 ### Infrastructure Overview
 This project provisions a secure 3-tier architecture on AWS:
-- Web tier in public subnet
-- App and DB tier in private subnets
+- Web  and App tier in public subnet
+- DB tier in private subnets
 - Remote backend with S3 & DynamoDB
 - Security enforced via SGs and NACLs
 ## Architectural Diagram.
