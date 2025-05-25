@@ -106,8 +106,11 @@ Initialize with a README.md, .gitignore for Terraform, and optionally a license.
 git clone https://github.com/yourusername/aws-3tier-infra-terraform.git
 cd aws-3tier-infra-terraform
 ```
-** Define Folder Structure**
+**Define Folder Structure**
+
 ![alt text](<images/Screenshot (378).png>)
+
+
 **Step 3: Create Terraform Modules**
 1. VPC Module
 Provision:
