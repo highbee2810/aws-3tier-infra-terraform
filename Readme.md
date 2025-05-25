@@ -96,7 +96,7 @@ terraform apply
 
 ---
 
-## This documentation summarizes the Terraform resources for building a secure 3-tier infrastructure on AWS.##
+## This documentation summarizes the Terraform resources for building a secure 3-tier infrastructure on AWS.
 ## step by step implementation guide  
 **step-one: Create a GitHub repository**
 Name it something like aws-3tier-infra-terraform
