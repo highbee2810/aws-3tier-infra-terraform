@@ -7,11 +7,11 @@ This project provisions a secure 3-tier architecture on AWS:
 - Security enforced via SGs and NACLs
 
 ### How to Deploy
-```bash
+```
 terraform init
 terraform plan
 terraform apply
-
+```
 ## This document explains the purpose and role of each AWS resource provisioned by the Terraform configuration for a secure 3-tier application architecture and how to implement it.
 **Core Networking Resources**
 *aws_vpc**  
