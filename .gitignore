@@ -1,0 +1,10 @@
+*.tfstate
+*.tfstate.backup
+crash.log
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variable override files
+*.tfvars
+.terraform/
